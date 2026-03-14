@@ -1,26 +1,31 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@plugin "daisyui" {
+  /* আমরা ড্রাকুলা বা বিজনেস থিমকে বেস হিসেবে নিতে পারি অথবা কাস্টম করব */
+  themes: night --default; 
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@plugin "daisyui/theme" {
+  name: "night";
+  default: true;
+  
+  /* --- Premium Color Palette --- */
+  
+  --color-primary: #C05621;         /* আপনার সিগনেচার অরেঞ্জ */
+  --color-primary-content: #ffffff;
+  
+  /* ব্যাকগ্রাউন্ড: একদম কালো নয়, খুব গভীর একটি চারকোল গ্রে */
+  --color-base-100: #0F1115;        
+  
+  /* একটু হালকা সেকশন বা কার্ডের জন্য */
+  --color-base-200: #16191E;        
+  
+  /* বর্ডার বা ডিভাইডারের জন্য */
+  --color-base-300: #21262E;        
+  
+  /* টেক্সট: একদম ধবধবে সাদা নয়, চোখের আরামের জন্য হালকা অফ-হোয়াইট */
+  --color-base-content: #E2E8F0;    
+  
+  /* সেকেন্ডারি টেক্সট বা মিউটেড টেক্সটের জন্য */
+  --color-secondary: #94A3B8;       
 }
