@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jas-properties.vercel.app/sitemap.xml
