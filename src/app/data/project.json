@@ -60,9 +60,9 @@
     "handover_date": "June 2026",
     "images": [
       "/assets/projectCom3.jpeg" ,
-      "/assets/KaziRegular.webp" ,
-            "/assets/KaziDuplex.webp",
-            "/assets/KaziPark.webp"
+      "/assets/kaziRegular.webp" ,
+            "/assets/kaziDuplex.webp",
+            "/assets/kaziPark.webp"
     ],
     "seo_keywords": ["Kazi Palace Uttara", "Flat sale Sector 15E Uttara", "Luxury apartment Dhaka 1230", "Single unit residential building Uttara", "Ready apartment Uttara Dhaka"]
   },
@@ -99,7 +99,7 @@
     "parking": "Available",
     "view": "Main Road Face",
     "handover_date": "Completed",
-    "images": ["/assets/Hazi(1).webp"],
+    "images": ["/assets/hazi.jpg"],
     "seo_keywords": ["Howlader Tower Ashulia", "Commercial building Jirabo Ashulia", "Real estate project Ashulia Dhaka", "Sold out tower Ashulia"]
   },
   {
