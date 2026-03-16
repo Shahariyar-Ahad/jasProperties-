@@ -15,8 +15,9 @@
     "view": "East Face",
     "handover_date": "July 2027",
     "images": [
-      
-      "/assets/projectCom1.jpeg" 
+            "/assets/projectCom1.jpeg",
+            "/assets/HakimFloor.png" ,
+            "/assets/HakimPark.png"  
     ],
     "seo_keywords": ["JAS Hakim Palace Uttara", "Luxury apartment Uttara Sector 15C", "1500 sft flat for sale Uttara", "Residential apartment Dhaka 1230", "Single unit luxury flat Uttara"]
   },
@@ -36,8 +37,9 @@
     "view": "North Face",
     "handover_date": "December 2025",
     "images": [
-      
-      "/assets/projectCom2.jpeg" 
+      "/assets/projectCom2.jpeg" ,
+      "/assets/labiba.png" ,
+            "/assets/labibaPark.png"
     ],
     "seo_keywords": ["Labiba Palace Uttara", "Apartment for sale Uttara Sector 15A", "1523 sft apartment Dhaka", "Modern residential building Uttara", "Luxury flat sale Dhaka"]
   },
@@ -57,8 +59,10 @@
     "view": "South Face",
     "handover_date": "June 2026",
     "images": [
-      
-      "/assets/projectCom3.jpeg" 
+      "/assets/projectCom3.jpeg" ,
+      "/assets/KaziRegular.png" ,
+            "/assets/KaziDuplex.png",
+            "/assets/KaziPark.png"
     ],
     "seo_keywords": ["Kazi Palace Uttara", "Flat sale Sector 15E Uttara", "Luxury apartment Dhaka 1230", "Single unit residential building Uttara", "Ready apartment Uttara Dhaka"]
   },

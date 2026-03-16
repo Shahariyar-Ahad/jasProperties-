@@ -30,16 +30,23 @@ const ProjectCard = ({ project }) => {
   return (
     <>
       <div className="group bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-500 border border-slate-100 flex flex-col h-full">
-        {/* Image Section */}
-        <div className="relative h-64 w-full overflow-hidden">
-          <Image
-  src={images?.[0] || "/placeholder.jpg"}
-  alt={project_name || "Project Image"}
-  fill
-  quality={60}
-  sizes="(max-width:768px) 100vw, 33vw"
-  className="object-cover"
-/>
+        <div className="relative h-64 w-full overflow-hidden bg-slate-100">
+  <Image
+    src={images?.[0] || "/placeholder.jpg"}
+    alt={project_name || "Project Image"}
+    fill
+    quality={80}
+    sizes="(max-width:768px) 100vw, 33vw"
+    // object-cover এর বদলে object-contain ব্যবহার করলে ইমেজ কাটবে না
+    className="object-contain p-2 transition-transform duration-500 group-hover:scale-105"
+  />
+  
+  {/* ইমেজ যদি ছোট হয় তবে পেছনে একটি হালকা ব্লার ইফেক্ট দিতে পারেন সুন্দর দেখানোর জন্য */}
+  <div className="absolute inset-0 -z-10 blur-xl opacity-30">
+     <Image src={images?.[0] || "/placeholder.jpg"} fill alt="bg" className="object-cover" />
+  </div>
+
+  <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
           {/* Condition Badge */}
