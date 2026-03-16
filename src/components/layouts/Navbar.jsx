@@ -57,7 +57,7 @@ const Navbar = () => {
   );
 
   return (
-   <div className="navbar sticky top-0 z-[100] bg-[#1A1D23]/90 backdrop-blur-md border-b border-white/5 px-4 md:px-10 h-24 transition-all">
+   <div className="navbar sticky top-0 z-[100] bg-[#1A1D23]/90 backdrop-blur-md border-b border-white/5 px-4 md:px-10 h-24 transition-all rounded-4xl">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden text-white">
@@ -70,15 +70,15 @@ const Navbar = () => {
           </ul>
         </div>
         
-        <div className="relative w-40 h-14 cursor-pointer hover:opacity-80 transition-opacity"> 
-          <Image
-            src="/assets/jas.png" 
-            alt="jas" 
-            fill 
-            className="object-contain" 
-            priority
-          />
-        </div>
+       <div className="relative w-56 h-20 cursor-pointer hover:opacity-80 transition-opacity rounded-4xl">
+  <Image
+    src="/assets/jas.png"
+    alt="JAS Properties Logo"
+    fill
+    className="object-contain"
+    priority
+  />
+</div>
       </div>
 
       <div className="navbar-center hidden lg:flex text-slate-200">

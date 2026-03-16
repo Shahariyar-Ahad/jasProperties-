@@ -23,7 +23,7 @@
   },
   {
     "id": "LBB-PLC-002",
-    "project_name": "Labiba Palace",
+    "project_name": "JAS Labiba Palace",
     "location": "Road #07, Plot #22, Sector #15A, Uttara, Dhaka-1230",
     "status": "Ongoing",
     "project_condition": "complete",
@@ -37,7 +37,7 @@
     "view": "North Face",
     "handover_date": "December 2025",
     "images": [
-      "/assets/projectCom2.jpeg" ,
+      "/assets/projectCom3.jpeg" ,
       "/assets/labiba.png" ,
             "/assets/labibaPark.png"
     ],
@@ -45,7 +45,7 @@
   },
   {
     "id": "KZI-PLC-003",
-    "project_name": "Kazi Palace",
+    "project_name": " JAS Kazi Palace",
     "location": "Plot #17, Road #01, Sector #15E, Uttara, Dhaka-1230",
     "status": "Ongoing",
     "project_condition": "complete",
@@ -59,7 +59,7 @@
     "view": "South Face",
     "handover_date": "June 2026",
     "images": [
-      "/assets/projectCom3.jpeg" ,
+      "/assets/projectCom2.jpeg" ,
       "/assets/kaziRegular.webp" ,
             "/assets/kaziDuplex.webp",
             "/assets/kaziPark.webp"
@@ -68,7 +68,7 @@
   },
   {
     "id": "NRP-004",
-    "project_name": "Noor Palace",
+    "project_name": " JAS Noor Palace",
     "location": "House #64/A, Sector 15, Diyabari, Uttara, Dhaka",
     "status": "Sold Out",
     "project_condition": "sold_out",
@@ -81,13 +81,13 @@
     "parking": "Available",
     "view": "East Face",
     "handover_date": "Completed",
-    "images": ["/assets/Noor.jpg"],
+    "images": ["/assets/noor.jpeg"],
     "seo_keywords": ["Noor Palace Uttara Diyabari", "Residential building Diyabari Uttara", "Sold out apartment Uttara", "Real estate project Diyabari Dhaka"]
   },
   {
     "id": "HAS-005",
-    "project_name": "Haji Abdus Sobhan Howlader Tower",
-    "location": "Kandail, Jirabo, Ashulia, Dhaka",
+    "project_name": " JAS Haji Abdus Sobhan Howlader Tower",
+    "location": "Rupayan shopono nibash, Rupayan City, Ashulia, savar-dhaka",
     "status": "Sold Out",
     "project_condition": "sold_out",
     "site_area": "Not Specified",
@@ -104,7 +104,7 @@
   },
   {
     "id": "MTV-006",
-    "project_name": "Metroview",
+    "project_name": " JAS Metroview",
     "location": "Dhaka",
     "status": "Upcoming",
     "project_condition": "upcoming",
@@ -122,7 +122,7 @@
   },
   {
     "id": "AFT-007",
-    "project_name": "Aftabnagar Project",
+    "project_name": " JAS Aftabnagar Project",
     "location": "Aftabnagar, Dhaka",
     "status": "Upcoming",
     "project_condition": "upcoming",
@@ -140,7 +140,7 @@
   },
   {
     "id": "COM-008",
-    "project_name": "Upcoming Commercial Building",
+    "project_name": "JAS Upcoming Commercial Building",
     "location": "Dhaka",
     "status": "Upcoming",
     "project_condition": "upcoming",
