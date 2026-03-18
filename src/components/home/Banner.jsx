@@ -8,7 +8,7 @@ const Banner = () => {
   const slides = [
     {
       image: "/assets/banner1.jpg",
-      title: "Luxury Villa in Dhaka",
+      title: "Welcome to JAS Properties",
       subtitle: "Experience premium living in the heart of the city"
     },
     {
