@@ -103,23 +103,28 @@
     "seo_keywords": ["Howlader Tower Ashulia", "Commercial building Jirabo Ashulia", "Real estate project Ashulia Dhaka", "Sold out tower Ashulia"]
   },
   {
-    "id": "MTV-006",
-    "project_name": " JAS Metroview",
-    "location": "Dhaka",
-    "status": "Upcoming",
-    "project_condition": "upcoming",
-    "site_area": "TBA",
-    "property_type": "Residential Building",
-    "unit_per_floor": "TBA",
-    "flat_size": "TBA",
-    "total_flats": "TBA",
-    "utility_facilities": ["Generator", "Solar", "CCTV Security", "Intercom Connection"],
-    "parking": "TBA",
-    "view": "TBA",
-    "handover_date": "TBA",
-    "images": ["/assets/metroview.jpg"],
-    "seo_keywords": ["Metroview apartment Dhaka", "Upcoming residential project Dhaka", "New apartment project Dhaka", "Modern apartment Bangladesh"]
-  },
+  "id": "MTV-006",
+  "project_name": "JAS Metroview",
+  "location": "Road #1/B, Plot #1, Sector #15/B, Uttara, Dhaka 1230",
+  "status": "Upcoming",
+  "project_condition": "upcoming",
+  "site_area": "TBA",
+  "property_type": "Residential Building",
+  "unit_per_floor": "TBA",
+  "flat_size": "1400 sft (1590 with utility)",
+  "total_flats": "TBA",
+  "utility_facilities": ["Generator", "Solar", "CCTV Security", "Intercom Connection"],
+  "parking": "TBA",
+  "view": "TBA",
+  "handover_date": "TBA",
+  "images": ["/assets/metroview1.jpg"],
+  "seo_keywords": [
+    "Metroview apartment Uttara Dhaka",
+    "Residential project Sector 15 Uttara",
+    "1400 sft apartment Uttara",
+    "Modern apartment Dhaka 1230"
+  ]
+},
   {
     "id": "AFT-007",
     "project_name": " JAS Aftabnagar Project",
@@ -156,4 +161,5 @@
     "images": ["/assets/project7.jpg"],
     "seo_keywords": ["Commercial building project Dhaka", "Upcoming commercial space Dhaka", "Office building Dhaka project", "New commercial real estate Dhaka"]
   }
+  
 ]
