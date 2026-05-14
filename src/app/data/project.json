@@ -117,7 +117,12 @@
   "parking": "TBA",
   "view": "TBA",
   "handover_date": "TBA",
-  "images": ["/assets/metroview1.jpg"],
+  "images": [
+  "/assets/metroview1.jpg.jpeg",
+  "/assets/metro1.jpg.jpeg",
+  "/assets/metro2.jpg.jpeg",
+  "/assets/metro3.jpg.jpeg"
+],
   "seo_keywords": [
     "Metroview apartment Uttara Dhaka",
     "Residential project Sector 15 Uttara",
